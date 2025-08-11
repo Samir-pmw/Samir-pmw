@@ -1,4 +1,4 @@
-# Samir Batista - Papiro
+# Papiro
 
 Computer Science Student | Programmer | Creator of indie games and projects
 
@@ -6,3 +6,7 @@ Computer Science Student | Programmer | Creator of indie games and projects
 - Tech: Python, C, Arduino, HTML5 & CSS3, learning JavaScript
 
 My website: https://samir-pmw.github.io/
+
+contact:
+- discord: papiro.dev
+- email: samirbatistasantos@gmail.com
