@@ -1,12 +1,22 @@
-# Papiro
+Howdy, my name is Samir. I'm a programmer and designer, currently working on personal projects.
+My nickname is Papiro 🕶️
 
-Computer Science Student | Programmer | Creator of indie games and projects
+**Computer Science Student | Programmer | Creator of indie games and projects**
 
-- Currently working on: a Discord bot.
-- Tech: Python, C, Arduino, HTML5 & CSS3, learning JavaScript
+**Info**
+- Pronouns: he / him  
+- Brazilian 🇧🇷 — (pt-BR / en)
 
-My website: https://samir-pmw.github.io/
+**Currently working on**
+- A Discord bot
 
-contact:
-- discord: papiro.dev
-- email: samirbatistasantos@gmail.com
+**Tech**
+- Python, C, Arduino, HTML5 & CSS3  
+- Learning: JavaScript
+
+**Website**
+- https://samir-pmw.github.io/
+
+**Contact**
+- Discord: `papiro.dev`  
+- Email: samirbatistasantos@gmail.com
