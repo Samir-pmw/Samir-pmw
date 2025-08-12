@@ -9,7 +9,7 @@ My nickname is Papiro 🕶️
 - Brazilian 🇧🇷 — (pt-BR / en)
 
 **Currently working on**
-- A Discord bot
+- My website and personal projects.
 
 **Tech**
 - Python, C, Arduino, HTML5 & CSS3  
