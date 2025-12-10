@@ -20,8 +20,6 @@
   <img src="https://skillicons.dev/icons?i=selenium,figma,notion,git,github" height="50" alt="tools" />
 </div>
 
----
-
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="pacman-contribution-graph-dark.svg">
@@ -29,8 +27,6 @@
     <img alt="pacman contribution graph" src="pacman-contribution-graph.svg">
   </picture>
 </div>
-
----
 
 ### **Connect with me**
 
