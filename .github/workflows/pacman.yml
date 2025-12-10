@@ -28,7 +28,7 @@ jobs:
         run: |
           mkdir -p dist
           pacman-contribution-graph --platform github --username "${GITHUB_REPOSITORY_OWNER}" --gameTheme github --output dist/pacman-contribution-graph-light.svg
-          pacman-contribution-graph --platform github --username "${GITHUB_REPOSITORY_OWNER}" --gameTheme githubDark --output dist/pacman-contribution-graph-dark.svg
+          pacman-contribution-graph --platform github --username "${GITHUB_REPOSITORY_OWNER}" --gameTheme github-dark --output dist/pacman-contribution-graph-dark.svg
 
       - name: Publish to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
