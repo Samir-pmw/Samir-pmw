@@ -1,14 +1,21 @@
-<h1 align="center">Hey there! I'm Samir</h1>
+<h1 align="center">Hi! I'm Samir</h1>
 
 <div align="center">
   <a href="https://git.io/typing-svg">
     <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2094F7&center=true&vCenter=true&width=435&lines=Software+Developer;Python+%26+Java+Enthusiast;Always+learning+new+techs" alt="Typing SVG" />
   </a>
 </div>
-
 <p align="center">
    <em>Welcome to my profile! I'm a developer passionate about creating solutions and automating processes.</em>
 </p>
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Samir-pmw/Samir-pmw/output/pacman-contribution-graph-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Samir-pmw/Samir-pmw/output/pacman-contribution-graph.svg">
+    <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/Samir-pmw/Samir-pmw/output/pacman-contribution-graph.svg">
+  </picture>
+</div>
 
 ---
 
@@ -18,14 +25,6 @@
   <img src="https://skillicons.dev/icons?i=py,c,java,html,css" height="50" alt="languages" />
   <br/><br/>
   <img src="https://skillicons.dev/icons?i=selenium,figma,notion,git,github" height="50" alt="tools" />
-</div>
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Samir-pmw/Samir-pmw/output/pacman-contribution-graph-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Samir-pmw/Samir-pmw/output/pacman-contribution-graph.svg">
-    <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/Samir-pmw/Samir-pmw/output/pacman-contribution-graph.svg">
-  </picture>
 </div>
 
 ### **Connect with me**
