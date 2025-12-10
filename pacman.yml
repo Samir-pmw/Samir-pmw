@@ -1,36 +1,44 @@
-name: Generate pacman animation
+name: Generate Pacman animation
 
 on:
-  schedule: # execute every 12 hours
-    - cron: "* */12 * * *"
+  schedule:
+    - cron: "0 */12 * * *"  # roda a cada 12 horas
   workflow_dispatch:
-  push:
-    branches:
-    - main
+
+permissions:
+  contents: write
 
 jobs:
-  generate:
-    permissions:
-      contents: write
+  build:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
 
     steps:
-      # 1. Gera as imagens na raiz
-      - name: generate pacman-contribution-graph.svg
-        uses: abozanona/pacman-contribution-graph@main
-        with:
-          github_user_name: ${{ github.repository_owner }}
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      # 2. (NOVO) Cria a pasta dist e move os arquivos para lá
-      - name: Move files to dist directory
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install pacman-contribution-graph
+        run: npm install -g pacman-contribution-graph
+
+      - name: Generate Pac-Man SVGs
         run: |
           mkdir -p dist
-          mv pacman-contribution-graph.svg dist/
-          mv pacman-contribution-graph-dark.svg dist/
+          pacman-contribution-graph \
+            --platform github \
+            --username "${GITHUB_REPOSITORY_OWNER}" \
+            --gameTheme github \
+            --output dist/pacman-contribution-graph-light.svg
+          pacman-contribution-graph \
+            --platform github \
+            --username "${GITHUB_REPOSITORY_OWNER}" \
+            --gameTheme githubDark \
+            --output dist/pacman-contribution-graph-dark.svg
 
-      # 3. Envia o conteúdo da pasta dist para a branch output
-      - name: push pacman-contribution-graph.svg to the output branch
+      - name: Publish Pac-Man SVGs to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
